@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bem-vindo ao Grao Cafe - Seu destino para cafés especiais e experiências únicas.">
-    <meta name="author" content="Victor Hugo">
-    <meta name="keywords" content="cafeteria, café, especialidades, Grao Cafe, bebidas, sobremesas, barista, coffee shop, experiência, menu, reserva, ambiente, relaxamento, encontro, amigos, trabalho, lazer">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bem-vindo ao Grao Cafe - Seu destino para cafés especiais e experiências únicas."
+    />
+    <meta name="author" content="Victor Hugo" />
+    <meta
+      name="keywords"
+      content="cafeteria, café, especialidades, Grao Cafe, bebidas, sobremesas, barista, coffee shop, experiência, menu, reserva, ambiente, relaxamento, encontro, amigos, trabalho, lazer"
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico.ico" />
     <title>Grao Cafe</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="page">
-        <header class="header">
-            Testing...
-        </header>
-        <main class="content">
-            <section class="content__recipes">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <img
+              class="nav__logo"
+              src="./images/logo_coffeeshop_dark.svg"
+              alt=""
+            />
+            <ul class="nav__links">
+              <li><a href="#">Receitas</a></li>
+              <li><a href="#">Reservar uma mesa</a></li>
+              <li><a href="#">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
 
-            </section>
-            <section class="content__reservation">
+        <div class="title">
+          <span><h1 class="title__accent">Café especial</h1></span>
+          <h1 class="title__normal">na biblioteca Triple Peaks</h1>
+        </div>
 
-            </section>
-
-        </main>
+        <div class="description">
+          <p>
+            Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+            você e vibrações aconchegantes para soltar a criatividade.
+          </p>
+        </div>
+        <img
+          class="header__image-coffe-shop"
+          src="./images/inside_coffee_shop.png"
+          alt=""
+        />
         <footer class="footer">
-
+            <div class="footer__work-hours">
+                <p>Horários:</p>
+                <p>Segunda a sexta (10:00 – 19:00)</p>
+                <p>Sábado a domingo (11:00 - 18:00)</p>
+            </div>
+            
         </footer>
-
+        <p class="header__address">200 Success Avenue, a cidade de Triple Peaks</p>
+      </header>
+      <main class="content">
+        <section class="content__recipes"></section>
+        <section class="content__reservation"></section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-</body>
-
+  </body>
 </html>
