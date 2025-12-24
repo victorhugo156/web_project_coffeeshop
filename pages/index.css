@@ -252,21 +252,23 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: 100px;
-    padding-bottom: 120px;
-
 }
 
 .reservation__title{
-  text-align: center;
-}
-
-.reservation__form{
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 
-  margin-top: 80px;
+  text-align: center;
+
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 80px;
+}
+
+.reservation__form{
+  margin-bottom: 120px;
 }
 
 .form{
