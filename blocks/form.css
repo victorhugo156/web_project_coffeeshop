@@ -68,18 +68,6 @@ border-radius: 4px;
 opacity: 0.7;
 }
 
-.checkbox-label{
-width: 100%;
-display: flex;
-justify-content: center;
-gap: 12px;
-
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-
-}
-
 .form__checkbox{
 
 width: 20px;
