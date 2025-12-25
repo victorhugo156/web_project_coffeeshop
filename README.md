@@ -1,6 +1,6 @@
 # Triple Espresso
 
-Triple Espresso é um projeto web para uma cafeteria moderna, desenvolvido para apresentar o cardápio, receitas e opções de reserva de forma visualmente atraente e fácil de usar. O projeto possui um layout limpo, design responsivo e estrutura modular de CSS para facilitar a manutenção e a escalabilidade.
+Triple Espresso é um projeto web para uma cafeteria moderna, desenvolvido para apresentar o cardápio, receitas e opções de reserva de forma visualmente atraente e fácil de usar. O projeto possui um layout limpo e estrutura modular de CSS para facilitar a manutenção e a escalabilidade.
 
 ## Funcionalidades
 
@@ -8,7 +8,6 @@ Triple Espresso é um projeto web para uma cafeteria moderna, desenvolvido para 
 - Seções de cardápio e receitas
 - Formulário de reserva para clientes
 - CSS modular para fácil personalização
-- Design responsivo para todos os dispositivos
 
 ## Estrutura de Pastas
 
