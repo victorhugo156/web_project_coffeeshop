@@ -18,3 +18,88 @@
 
   overflow: hidden;
 }
+
+.header__title{
+  max-width: 709px;
+
+  margin-top: 183px;
+  padding-left: 80px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.span-accent{
+  display: block;
+
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
+  font-style: italic;
+
+  font-size: 58px;
+
+  color: #2F80ED;
+
+  line-height: 72px;
+}
+
+.header__description{
+  max-width: 683px;
+
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+  line-height: 30px;
+
+  padding-left: 80px;
+
+  margin-top: 28px;
+}
+
+
+.header__image{
+  height: 558px;
+
+  position: absolute;
+  top: 100px;
+  right: 5px;
+
+  object-fit: contain;
+}
+
+.header__footer{
+  width: 100%;
+
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+
+  padding-left: 80px;
+
+
+  overflow: auto;
+
+}
+
+.header__paragraph{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+
+  margin: 0;
+
+  right: 80px;
+}
+
+.paragraph{
+  position: absolute;
+
+  margin: 0;
+
+  top: 40px;
+  right: 120px;
+}
