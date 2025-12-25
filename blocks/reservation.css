@@ -28,15 +28,3 @@
 .reservation__form {
   margin-bottom: 120px;
 }
-
-.checkbox-label {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-
-}

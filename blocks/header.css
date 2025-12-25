@@ -33,7 +33,7 @@
   letter-spacing: -1px;
 }
 
-.span-accent{
+.header__span-accent{
   display: block;
 
   font-family: "Noto Serif", 'Times New Roman', Times, serif;
@@ -95,7 +95,7 @@
   right: 80px;
 }
 
-.paragraph{
+.header__paragraph_type_address{
   position: absolute;
 
   margin: 0;
