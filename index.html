@@ -12,7 +12,6 @@
       name="keywords"
       content="cafeteria, café, especialidades, Grao Cafe, bebidas, sobremesas, barista, coffee shop, experiência, menu, reserva, ambiente, relaxamento, encontro, amigos, trabalho, lazer"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,14 +36,14 @@
           <img
             class="nav__logo"
             src="./images/logo_coffeeshop_dark.svg"
-            alt=""
+            alt="Logo da Triple Espresso"
           />
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes">Receitas</a></li>
             <li>
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
             </li>
-            <li><a class="nav__link" href="#">Contatos</a></li>
+            <li><a class="nav__link" href="#footer">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -59,7 +58,7 @@
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
-          alt=""
+          alt="Desenho de uma cafeteria dentro de uma biblioteca"
         />
         <div class="header__footer">
           <p class="header__paragraph">Horários:</p>
@@ -139,7 +138,30 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <div class="footer__circle"></div>
+          <img src="./images/logo_coffeeshop_light.svg" alt="Logo Triple Espresso" class="footer__logo">
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img src="./images/facebook_white.svg" alt="Link para Triple Espresso Facebook" class="footer__social-icon">
+                </a>
+                <p>Facebook</p>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img src="./images/instagram_white.svg" alt="Link para Triple Espresso Instagram" class="footer__social-icon">
+                </a>
+                <p>Instagram</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2025 Victor Hugo</p>
+      </footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,145 @@
+.header{
+  background-color:#FFFFFF;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: hidden;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 30px;
+}
+
+.nav__logo{
+  width: 105px;
+  height: 39px;
+
+  position: relative;
+  left: 30px;
+}
+
+.nav__links{
+  display: flex;
+  gap: 20px;
+
+  padding-right: 80px;
+
+  list-style: none;
+}
+
+.nav__link{
+  color: #000000;
+
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 20px;
+}
+
+.nav__link:hover{
+  opacity: 0.7;
+}
+
+.header__title{
+  max-width: 709px;
+
+  margin-top: 183px;
+  padding-left: 80px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.span-accent{
+  display: block;
+
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
+  font-style: italic;
+
+  font-size: 58px;
+
+  color: #2F80ED;
+
+  line-height: 72px;
+}
+
+.header__description{
+  max-width: 683px;
+
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+  line-height: 30px;
+
+  padding-left: 80px;
+
+  margin-top: 28px;
+}
+
+
+
+.header__image{
+  height: 558px;
+
+  position: absolute;
+  top: 100px;
+  right: 5px;
+
+  object-fit: contain;
+}
+
+.header__footer{
+  width: 100%;
+
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+
+  padding-left: 80px;
+
+
+  overflow: auto;
+
+}
+
+.header__paragraph{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+
+  margin: 0;
+
+  right: 80px;
+}
+
+.paragraph{
+  position: absolute;
+
+  margin: 0;
+
+  top: 40px;
+  right: 120px;
+}
